@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PROFILE_IMAGE_URL = "../../../public/avt.jpg";
+const PROFILE_IMAGE_URL = "https://github.com/leecuongv/gemini-portfolio/blob/main/public/avt.jpg?raw=true";
 
 
 
