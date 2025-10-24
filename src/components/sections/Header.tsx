@@ -1,6 +1,8 @@
 import React from 'react';
 
-const PROFILE_IMAGE_URL = "https://i.imgur.com/Tpa2a6s.png";
+const PROFILE_IMAGE_URL = "../../../public/avt.jpg";
+
+
 
 export const Header: React.FC = () => (
     <header className="text-center lg:text-left">
@@ -8,7 +10,7 @@ export const Header: React.FC = () => (
             <img
                 src={PROFILE_IMAGE_URL}
                 alt="Lê Văn Cường"
-                className="rounded-full w-32 h-32 border-4 border-slate-200 dark:border-slate-700 shadow-md"
+                className="rounded-full w-32 h-32 object-cover border-4 border-slate-200 dark:border-slate-700 shadow-md"
             />
         </div>
         <h1 className="mt-4 text-3xl font-bold text-slate-900 dark:text-slate-100">

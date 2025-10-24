@@ -13,7 +13,7 @@ interface LeftColumnProps {
 
 export const LeftColumn: React.FC<LeftColumnProps> = ({ softSkills, languages }) => {
     return (
-        <div className="lg:sticky lg:top-8 flex flex-col gap-8">
+        <div className="lg:sticky lg:top-8 flex flex-col items-center gap-8">
             <Header />
             <Contact />
             <Education />
