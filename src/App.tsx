@@ -34,16 +34,28 @@ const certificatesData: Certificate[] = [
 
 const projectsData: Project[] = [
     {
-        name: "E-commerce Platform Backend",
-        description: "Designed and implemented a robust backend for an e-commerce website using Spring Boot, featuring product management, user authentication, and order processing.",
-        techStack: ["Java", "Spring Boot", "MySQL", "JWT", "REST API"],
-        link: "https://github.com/leecuongv"
+    name: "Back-end Farm Management System",
+    description: "A comprehensive back-end system for managing farm operations, including crop tracking, resource management, and data analytics.",
+    techStack: ["Java", "Spring", "MongoDB", "RESTful API"],
+    githubLink: "https://github.com/leecuongv/learning-spring"
+  },
+  {
+    name: "Back-end Only Examination System",
+    description: "A back-end only system for managing online examinations, including user management, exam creation, and result processing.",
+    techStack: ["Node.js", "Express", "MongoDB", "RESTful API", "Axios"],
+    githubLink: "https://github.com/leecuongv/BE_Online_Examination_System"
+  },
+  {
+    name: "Realtime Mark Detection",
+    description: "Realtime mark detection is a python project for detecting marks in real-time using computer vision techniques.",
+    techStack: ["Python", "OpenCV", "TensorFlow"],
+    githubLink: "https://github.com/leecuongv/RealtimeMaskDetection"
     },
     {
-        name: "Task Management Application",
-        description: "A full-stack task management tool built with Node.js and Express for the backend, and a simple frontend interface. Users can create, update, and track tasks.",
-        techStack: ["Node.js", "Express", "MongoDB", "EJS"],
-        link: "https://github.com/leecuongv"
+      name: "Hotel Management System",
+      description: "Hotel Management System is a Windows application that allows hotel staff to manage bookings, check-ins, and check-outs efficiently.",
+      techStack: ["Windows Forms", "C#"],
+      githubLink: "https://github.com/leecuongv/Hotel-Managerment-System"
     }
 ];
 

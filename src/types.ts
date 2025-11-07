@@ -17,7 +17,8 @@ export interface Project {
     name: string;
     description: string;
     techStack: string[];
-    link?: string;
+  demoLink?: string;
+  githubLink?: string;
 }
 
 export interface SkillCategory {
